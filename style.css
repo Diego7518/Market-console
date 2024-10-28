@@ -1,0 +1,363 @@
+body{
+    align-items: center;
+}
+
+header{
+    margin-top: -1.5rem;
+    background-color: rgb(186, 197, 24);
+}
+
+header>center>img{
+    margin-top: -30px;
+    margin-left: 109rem;
+    width: 2rem;
+    height: 2rem;
+    cursor: pointer;
+    
+}
+
+
+.img1>img{ 
+    width: 9rem;
+    height: 9rem;
+    position: relative;
+    margin-left: 3rem;
+}
+
+.container{
+    position: relative;
+    left: 8px;
+}
+
+.container1{
+  height:15rem;
+  width: 15rem;
+  margin: 2rem;
+  padding:4rem 0rem 0rem 0rem;
+  background: rgb(166, 171, 177);
+  border-radius: 5px;
+  color:#000000;
+}
+.container1> h2{
+    position: relative;
+    left: 3rem;
+    margin-top: -2rem;
+}
+
+.container1> h3{
+    position: relative;
+    left: 5rem;
+    margin-top: 0.5rem;
+}
+
+.container1>button{
+    position: relative;
+    left: 6.5rem;
+    top: -10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+
+.container2{
+    height:15rem;
+    width: 15rem;
+    margin: 2rem;
+    padding:4rem 0rem 0rem 0rem;
+    background: rgb(166, 171, 177);
+    border-radius: 5px;
+    color:#000000;
+    position:absolute;
+    margin-left: 21rem;
+    margin-top: -21rem;
+  }
+  .container2> h2{
+      position: relative;
+      left: 3rem;
+      margin-top: -2rem;
+  }
+  
+  .container2> h3{
+      position: relative;
+      left: 5rem;
+      margin-top: 0.5rem;
+  }
+  
+  .container2>button{
+      position: relative;
+      left: 6.5rem;
+      top: -10px;
+      border-radius: 8px;
+      cursor: pointer;
+  }
+
+  .container3{
+    height:15rem;
+    width: 15rem;
+    margin: 2rem;
+    padding:4rem 0rem 0rem 0rem;
+    background: rgb(166, 171, 177);
+    border-radius: 5px;
+    color:#000000;
+    position:absolute;
+    margin-left: 40rem;
+    margin-top: -21rem;
+  }
+  .container3> h2{
+      position: relative;
+      left: 3.5rem;
+      margin-top: -2rem;
+  }
+  
+  .container3> h3{
+      position: relative;
+      left: 5.7rem;
+      margin-top: 0.5rem;
+  }
+  
+  .container3>button{
+      position: relative;
+      left: 6.5rem;
+      top: -10px;
+      border-radius: 8px;
+      cursor: pointer;
+  }
+
+  .container4{
+    height:15rem;
+    width: 15rem;
+    margin: 2rem;
+    padding:4rem 0rem 0rem 0rem;
+    background: rgb(166, 171, 177);
+    border-radius: 5px;
+    color:#000000;
+    position:absolute;
+    margin-left: 59rem;
+    margin-top: -21rem;
+  }
+  .container4> h2{
+      position: relative;
+      left: 4rem;
+      margin-top: -2rem;
+  }
+  
+  .container4> h3{
+      position: relative;
+      left: 5.7rem;
+      margin-top: 0.5rem;
+  }
+  
+  .container4>button{
+      position: relative;
+      left: 6.5rem;
+      top: -10px;
+      border-radius: 8px;
+      cursor: pointer;
+  }
+
+  .container5{
+    height:15rem;
+    width: 15rem;
+    margin: 2rem;
+    padding:4rem 0rem 0rem 0rem;
+    background: rgb(166, 171, 177);
+    border-radius: 5px;
+    color:#000000;
+    position:absolute;
+    margin-left: 78rem;
+    margin-top: -21rem;
+  }
+  .container5> h2{
+      position: relative;
+      left: 4rem;
+      margin-top: -2rem;
+  }
+  
+  .container5> h3{
+      position: relative;
+      left: 4.7rem;
+      margin-top: 0.5rem;
+  }
+  
+  .container5>button{
+      position: relative;
+      left: 6.3rem;
+      top: -10px;
+      border-radius: 8px;
+      cursor: pointer;
+  }
+
+  .container6{
+    height:15rem;
+    width: 15rem;
+    margin: 2rem;
+    padding:4rem 0rem 0rem 0rem;
+    background: rgb(166, 171, 177);
+    border-radius: 5px;
+    color:#000000;
+    position:absolute;
+    left: 95rem;
+    margin-top: -21rem;
+  }
+  .container6> h2{
+      position: relative;
+      left: 3.4rem;
+      margin-top: -2rem;
+  }
+  
+  .container6> h3{
+      position: relative;
+      left: 5rem;
+      margin-top: 0.5rem;
+  }
+  
+  .container6>button{
+      position: relative;
+      left: 6.5rem;
+      top: -10px;
+      border-radius: 8px;
+      cursor: pointer;
+  }
+
+  .container7{
+    height:15rem;
+    width: 15rem;
+    margin: 2rem;
+    padding:4rem 0rem 0rem 0rem;
+    background: rgb(166, 171, 177);
+    border-radius: 5px;
+    color:#000000;
+    position:absolute;
+    margin-left: 40rem;
+    margin-top: 0rem;
+  }
+  .container7> h2{
+      position: relative;
+      left: 3.5rem;
+      margin-top: -2rem;
+  }
+  
+  .container7> h3{
+      position: relative;
+      left: 5.7rem;
+      margin-top: 0.5rem;
+  }
+
+  .container7>button{
+    position: relative;
+    left: 6.5rem;
+    top: -10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+.container8{
+    height:15rem;
+    width: 15rem;
+    margin: 2rem;
+    padding:4rem 0rem 0rem 0rem;
+    background: rgb(166, 171, 177);
+    border-radius: 5px;
+    color:#000000;
+    position:absolute;
+    margin-left: 59rem;
+    margin-top: 0rem;
+  }
+  .container8> h2{
+      position: relative;
+      left: 4rem;
+      margin-top: -2rem;
+  }
+  
+  .container8> h3{
+      position: relative;
+      left: 5.7rem;
+      margin-top: 0.5rem;
+  }
+  
+  .container8>button{
+      position: relative;
+      left: 6.5rem;
+      top: -10px;
+      border-radius: 8px;
+      cursor: pointer;
+  }
+
+.container4>.M{
+    left: 2.5rem;
+}
+
+.container4>.P{
+    left: 5rem;
+}
+  .container5>.N{
+    left: 6rem;
+  }
+
+  .container5>.precio{
+    left: 85px;
+  }
+
+.container6>.play{
+    left: 5.5rem;
+}
+
+.container1>.play{
+    left: 5.5rem;
+}
+
+.container2>.play{
+    left: 5.5rem;
+}
+
+.container3>.play{
+    left: 5.5rem;
+}
+
+.container3>.N{
+    left: 5rem;
+}
+
+.container4>.play{
+    left: 5.5rem;
+}
+
+.container4>.N{
+    left: 5rem;
+}
+
+.container6>.xbox{
+    left: 4.5rem;
+}
+
+.container8>.play{
+    left: 5.5rem;
+}
+
+.container8>.N{
+    left: 5rem;
+}
+
+.hidden {
+    display: none;
+}
+
+#cart-container {
+    position: fixed;
+    top: 10%;
+    right: 10%;
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    width: 300px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+}
+
+#cart-container table {
+    width: 100%;
+}
+
+#cart-container h3, #cart-container button {
+    margin-top: 10px;
+}

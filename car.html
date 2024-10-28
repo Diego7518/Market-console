@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras</title>
+    <link rel="stylesheet" href="car.css">
+</head>
+<body>
+    <h1>Carrito de Compras</h1>
+    <div id="product-list">
+        <h2>Lista de Productos</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody id="product-items">
+                <!-- Aquí se mostrarán los productos disponibles -->
+            </tbody>
+        </table>
+    </div>
+
+    <div id="cart-container">
+        <h2>Carrito</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Producto</th>
+                    <th>Precio</th>
+                    <th>Cantidad</th>
+                    <th>Subtotal</th>
+                    <th>Acción</th>
+                </tr>
+            </thead>
+            <tbody id="cart-items">
+                <!-- Aquí se mostrarán los productos agregados al carrito -->
+            </tbody>
+        </table>
+        <p id="total-price">Total: $0 USD</p>
+        <a href="index.html"><button id="continue-shopping">Continuar Comprando</button></a>
+        <button id="pay-button">Pagar</button>
+    </div>
+    <script src="car.js"></script>
+</body>
+</html>
