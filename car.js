@@ -8,7 +8,7 @@ const products = [
     { name: "Super Nintendo", price: 1200000 },
     { name: "Nintendo NES", price: 1120000 },
     { name: "Game Boy SP", price: 200000 },
-    { name: "Game Cube", price: 200000 },
+    { name: "Game Cube", price: 800000 },
     { name: "Nintendo 64", price: 1000000 },
     { name: "Nintendo DS", price: 1500000 },
     { name: "Nintendo 3DS", price: 900000 },
@@ -27,7 +27,7 @@ const products = [
     { name: "PS Vita", price: 1000000 },
 ];
 
-// Función para cargar la lista de productos en el HTML
+// Lista de productos
 function loadProducts() {
     products.forEach((product, index) => {
         const row = document.createElement("tr");
@@ -40,7 +40,7 @@ function loadProducts() {
     });
 }
 
-// Función para agregar productos al carrito
+// Agregar productos al carrito
 function addToCart(product, price) {
     const existingProduct = cartItems.find(item => item.product === product);
     if (existingProduct) {
@@ -51,7 +51,7 @@ function addToCart(product, price) {
     renderCart();
 }
 
-// Función para actualizar el carrito en el HTML
+// Actualizar el carrito 
 function renderCart() {
     cartItemsContainer.innerHTML = ""; // Limpia el contenido del carrito
     let total = 0;
@@ -77,19 +77,19 @@ function renderCart() {
     totalPriceElement.textContent = `Total: $${total} USD`;
 }
 
-// Función para actualizar la cantidad de un producto en el carrito
+// Actualiza la cantidad de un producto en el carrito
 function updateQuantity(index, quantity) {
     cartItems[index].quantity = parseInt(quantity);
     renderCart();
 }
 
-// Función para eliminar un producto del carrito
+// Eliminar productos del carrito
 function removeFromCart(index) {
     cartItems.splice(index, 1);
     renderCart();
 }
 
-// Configuración de eventos para los botones de continuar comprando y pagar
+// Lógica para los botones de pagar y seguir comprando
 document.getElementById("continue-shopping").addEventListener("click", () => {
     alert("Puedes seguir comprando.");
 });
@@ -100,7 +100,7 @@ document.getElementById("pay-button").addEventListener("click", () => {
     renderCart();
 });
 
-// Cargar productos al inicio
+// Cargar los productos
 loadProducts();
 
 
